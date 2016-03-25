@@ -4,3 +4,61 @@
 // $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 // @import 'font-awesome';
 @import 'box-sizing';
+
+body {
+  margin: 0;
+  width: 100vw;
+  background: yellow;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  position: relative;
+
+}
+
+
+nav {
+  background: #23344d;
+  color: white;
+  margin: 0;
+  font-size: 2rem;
+  font-family: 'MarvelLogo';
+
+}
+
+main {
+  width: 70rem;
+  background: pink;
+  display: flex;
+  flex-grow: 1;
+  margin: auto;
+}
+
+.navbar__text {
+  margin: 0;
+}
+
+.series-details-sidebar {
+  background: purple;
+  max-width: 30%;
+}
+
+.submain {
+  background: orange;
+  width: 70%;
+}
+
+.modal {
+  min-width: 100vw;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 1;
+}
+
+.modal-card {
+  background: lightgrey;
+  z-index: 1;
+  width: 70rem;
+  position: absolute;
+  top: 50%;
+  left: 6.25%;
+}

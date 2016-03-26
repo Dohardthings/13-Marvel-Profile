@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>13 Marvel Profile</title>
+  <link href='https://fonts.googleapis.com/css?family=Special+Elite|Open+Sans' rel='stylesheet' type='text/css'>`
   <link rel="stylesheet" href="/app.css">
 </head>
 <body>
@@ -11,27 +12,27 @@
 </nav>
 <main>
   <div class="series-details-sidebar">
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
-    <div class="main-pic"></div>
+    <div class="main-pic">
+      <img class="main-pic__image" src="" alt="">
+    </div>
     <p class="main-pic__heading"></p>
-    <p class="main-pic__years"></p>
+
 
     <div class="creaters">
       <p class="creators-heading">Creators</p>
-      <ul class="creator-names">
-        <li class="creator-names__item"></li>
-      </ul>
+      <div class="creator-names">
+        <p class="creator-names__item">creator name</p>
+      </div>
     </div>
   </div>
 
   <div class="sub-main">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     <div class="characters__list">
       <p class="characters__heading">Characters</p>
       <div class="characters">
-        <div class="characters-pic"></div>
+        <div class="characters-pic">
+          <img class="characters-pic__image" src="http://www.placecage.com/c/100/100" alt="" />
+        </div>
         <div class="character-name"></div>
       </div>
     </div>
@@ -57,6 +58,8 @@
   <script src="/app.js" charset="utf-8"></script>
 
   <script type="text/javascript">
+  var index = require('index');
+  index();
   </script>
 </body>
 </html>

@@ -99,8 +99,34 @@ main {
 
 .sub-main {
   background: orange;
-  max-width: calc(70% - $gutter - $gutter);
+  width: calc(70% - #{$gutter} - #{$gutter});
 }
+
+.character__pic {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+
+  &:before {
+    display: block;
+    padding-top: 100%;
+    content: '';
+  }
+}
+
+.characters {
+
+}
+
+.characters-pic__image {
+  position:  absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+  max-width: 100%;
+}
+
 
 .modal {
   display: none;

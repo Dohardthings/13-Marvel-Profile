@@ -21,6 +21,11 @@ export default class ComicView {
     `;
 
     this.data = data;
+    // const modalEl = document.querySelector(`.modal`);
+    // const comicBtn = this.element.querySelector(`.read-more`);
+    this.element.querySelector(`.read-more`).addEventListener(`click`, () => {
+      document.querySelector(`.modal`).add.classList(`.modal--active`);
+    });
   }
 
-}
+   }

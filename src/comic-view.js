@@ -4,8 +4,6 @@ export default class ComicView {
   constructor(data) {
     this.element = document.createElement(`div`);
     this.element.classList.add(`comic`);
-    // this.btnEl = document.querySelector(`.read-more`);
-    // this.button = document.querySelector(`.close-button`);
     this.element.innerHTML =
     `<div class="comic-pic">
       <img class="generic" src="${data.thumbnail.path}.${data.thumbnail.extension}" alt=""/>

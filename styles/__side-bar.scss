@@ -8,6 +8,7 @@
   overflow: hidden;
   position: relative;
   width: 100%;
+  border-radius: .4rem;
 }
 
 .main-pic:before {
@@ -27,24 +28,20 @@
 
 
 .main-pic__heading {
-  margin-left: 1rem;
   font-family: $brand-sans;
 }
 
 .main-pic__years {
-  margin-left: 1rem;
   font-family: $brand-sans;
-  font-size: .7rem;
+  font-size: 0.7rem;
 }
 
 .creators-heading {
-  margin-left: 1rem;
   border-bottom: $brand-border;
   font-family: $brand-display;
 }
 
 .creator-names {
-  margin-left: 1rem;
   font-family: $brand-sans;
 }
 

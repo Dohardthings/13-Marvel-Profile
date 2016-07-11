@@ -9,7 +9,7 @@
 
 body {
   margin: 0;
-  width: 100vw;
+  min-width: 100vw;
   display: flex;
   min-height: 100vh;
   flex-direction: column;
@@ -29,14 +29,19 @@ nav {
 
 }
 
+.subnav {
+  width: 60rem;
+  margin: auto;
+}
+
 .navbar__text {
   margin: $gutter;
-  margin-left: 11rem;
+  margin-left: 1rem;
   font-family: $brand-display;
 }
 
 main {
-  width: 60rem;
+  max-width: 60rem;
   background: $brand-white;
   display: flex;
   flex-grow: 1;
@@ -47,8 +52,9 @@ main {
 
 
 .sub-main {
+
   background: $brand-white;
-  width: calc(70% - #{$gutter} - #{$gutter});
+  max-width: calc(70% - #{$gutter} - #{$gutter});
 }
 
 .character__pic {
@@ -70,7 +76,7 @@ main {
   }
 
 .character {
-  width: 20%;
+  max-width: 20%;
   margin: $gutter;
 }
 
